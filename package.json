@@ -1,0 +1,53 @@
+{
+  "name": "llm-cmd",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool that leverages Large Language Models to generate and execute shell commands through natural language input",
+  "main": "index.js",
+  "bin": {
+    "llm-cmd": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "keywords": [
+    "cli",
+    "llm",
+    "ai",
+    "command-line",
+    "natural-language",
+    "shell",
+    "automation"
+  ],
+  "author": {
+    "name": "Youngmin Park",
+    "email": "parkyymm@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whyparkc/llm-cmd"
+  },
+  "bugs": {
+    "url": "https://github.com/whyparkc/llm-cmd/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
